@@ -115,7 +115,8 @@ p {
 /* Slideshow Container */
 .slideshow-container {
     position: relative;
-    max-width: 100%;
+    width: 100%;
+    height: 400px; /* Fixed height for uniformity */
     margin: auto;
     overflow: hidden; /* Hide excess slides */
 }
@@ -126,15 +127,16 @@ p {
     text-align: center;
     position: absolute; /* Stack slides on top of each other */
     width: 100%;
+    height: 100%; /* Ensure slides take full container height */
     transition: opacity 1s ease;  /* Smooth fade transition */
 }
 
 /* Displaying images inside slides */
 .slide img {
     width: 100%;  /* Make the images fill the container */
-    max-width: 100%;  /* Ensure it doesn't overflow */
-    height: 400px;  /* Set a fixed height for uniformity */
+    height: 100%;  /* Ensure image takes up full container height */
     object-fit: cover;  /* Maintain aspect ratio */
+    object-position: center; /* Center the image in case of cropping */
 }
 
 /* For controlling slide captions */
