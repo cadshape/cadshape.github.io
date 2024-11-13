@@ -11,7 +11,6 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Navbar Styles */
 .navbar {
     background-color: #333;
     color: #fff;
@@ -19,6 +18,25 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: 700; /* Bold */
+    color: #1a73e8; /* Professional blue color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.brand:hover {
+    color: #0056b3; /* Darker blue on hover */
 }
 
 .nav-links {
@@ -31,6 +49,10 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #1a73e8; /* Change to blue on hover */
 }
 
 /* Intro Section */
