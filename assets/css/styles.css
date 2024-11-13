@@ -150,3 +150,36 @@ p {
     left: 20px;
     z-index: 10;
 }
+
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.blog-post h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.blog-post a:hover {
+    color: #007bff;
+}
+
+.post-content {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
