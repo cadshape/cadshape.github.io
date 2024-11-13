@@ -9,3 +9,14 @@
         </ul>
     </div>
 </nav>
+<script>
+    // Select the hamburger and nav links
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    // Toggle the active class on click
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+
