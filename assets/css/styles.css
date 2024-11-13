@@ -1,3 +1,4 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 /* Global Styles */
@@ -10,7 +11,6 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Navbar Styles */
 .navbar {
     background-color: #333;
     color: #fff;
@@ -18,16 +18,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    position: relative; /* Ensure positioning context for absolute positioning of .nav-links */
 }
 
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
 
 .brand {
     font-size: 1.5rem;
@@ -45,7 +37,6 @@ body {
     list-style: none;
     display: flex;
     gap: 1.5rem;
-    margin-left: auto; /* Ensure nav links are aligned to the right */
 }
 
 .nav-links li a {
@@ -58,63 +49,68 @@ body {
     color: #1a73e8; /* Change to blue on hover */
 }
 
-/* Mobile-specific Styles */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none; /* Hide the links by default */
-        flex-direction: column; /* Stack links vertically */
-        gap: 1rem;
-        width: 100%;
-        padding: 1rem;
-        background-color: #333; /* Navbar background on mobile */
-        position: absolute;
-        top: 60px; /* Adjust based on your navbar height */
-        left: 0;
-        z-index: 1000;
-    }
-
-    .nav-links.active {
-        display: flex; /* Show links when active */
-    }
-
-    .navbar .hamburger {
-        display: block; /* Show hamburger menu on small screens */
-        cursor: pointer;
-    }
-
-    .hamburger div {
-        width: 30px;
-        height: 4px;
-        background-color: white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
+/* Intro Section */
+.intro {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 2rem;
 }
 
-/* Navbar Hamburger Menu */
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
+/* Projects Overview Section */
+.projects-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
 }
 
-.hamburger.active div:nth-child(1) {
-    transform: rotate(-45deg);
-    transform-origin: 0% 100%;
+/* Project Preview Box */
+.project-preview {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
-.hamburger.active div:nth-child(2) {
-    opacity: 0;
+.project-preview:hover {
+    transform: scale(1.02);
 }
 
-.hamburger.active div:nth-child(3) {
-    transform: rotate(45deg);
-    transform-origin: 0% 0%;
+.project-preview img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    font-weight: 700; /* Bold */
+}
+
+p {
+    font-weight: 400; /* Regular */
+}
+
+.light-text {
+    font-weight: 300; /* Light */
+}
+
 /* Slideshow Container */
 .slideshow-container {
     position: relative;
     width: 100%;
+    height: 400px; /* Fixed height for uniformity */
     margin: auto;
     overflow: hidden; /* Hide excess slides */
 }
@@ -149,7 +145,6 @@ body {
     z-index: 10;
 }
 
-/* Blog Post Styles */
 .blog-posts {
     display: flex;
     flex-direction: column;
