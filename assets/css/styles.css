@@ -18,7 +18,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; /* Ensure navbar spans full width */
+    width: 100%;
+    position: relative; /* Ensure positioning context for absolute positioning of .nav-links */
 }
 
 .nav-container {
@@ -44,6 +45,7 @@ body {
     list-style: none;
     display: flex;
     gap: 1.5rem;
+    margin-left: auto; /* Ensure nav links are aligned to the right */
 }
 
 .nav-links li a {
@@ -109,7 +111,6 @@ body {
     transform: rotate(45deg);
     transform-origin: 0% 0%;
 }
-
 /* Slideshow Container */
 .slideshow-container {
     position: relative;
