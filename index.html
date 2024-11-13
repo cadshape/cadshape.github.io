@@ -4,17 +4,18 @@ title: "Home"
 ---
 
 <div class="hero-section">
-    <h1>Welcome to [Your Business Name]</h1>
+    <h1>Welcome to Cadshape</h1>
     <p>Leading experts in mechanical consultancy and engineering solutions.</p>
 </div>
 
 <div class="slideshow">
     {% for project in site.projects %}
         <div class="slide">
-            <h2>{{ project.title }}</h2>
+            <a href="{{ project.url }}">
+                <h2>{{ project.title }}</h2>
+                <img src="{{ project.thumbnail }}" alt="Thumbnail for {{ project.title }}">
+            </a>
             <p>{{ project.description }}</p>
-            <img src="{{ project.thumbnail }}" alt="Thumbnail for {{ project.title }}">
-            <a href="{{ project.url }}">View Project</a>
         </div>
     {% endfor %}
 </div>
