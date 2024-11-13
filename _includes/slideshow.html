@@ -1,0 +1,9 @@
+<div class="slideshow">
+    {% for project in site.projects %}
+        <div class="slide">
+            <h2>{{ project.title }}</h2>
+            <p>{{ project.description }}</p>
+            <img src="{{ project.thumbnail }}" alt="Thumbnail for {{ project.title }}">
+        </div>
+    {% endfor %}
+</div>
