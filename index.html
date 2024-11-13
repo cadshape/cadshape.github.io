@@ -8,12 +8,13 @@ title: "Home"
     <p>Leading experts in mechanical consultancy and engineering solutions.</p>
 </div>
 
-<div class="project-slideshow">
+<div class="slideshow">
     {% for project in site.projects %}
         <div class="slide">
             <h2>{{ project.title }}</h2>
             <p>{{ project.description }}</p>
-            <img src="{{ project.thumbnail }}" alt="{{ project.title }} Thumbnail">
+            <img src="{{ project.thumbnail }}" alt="Thumbnail for {{ project.title }}">
+            <a href="{{ project.url }}">View Project</a>
         </div>
     {% endfor %}
 </div>
