@@ -107,7 +107,7 @@ p {
 }
 
 /* Slideshow Container */
-.slideshow-container {
+.slideshow {
     position: relative;
     width: 70%;
     max-width: 70%;
