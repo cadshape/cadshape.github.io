@@ -112,7 +112,7 @@ p {
     width: 70%;
     max-width: 70%;
     height: 400px; /* Fixed height for uniformity */
-    margin: auto;
+    margin: 0 auto;
     overflow: hidden; /* Hide excess slides */
 }
 
