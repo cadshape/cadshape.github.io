@@ -109,7 +109,8 @@ p {
 /* Slideshow Container */
 .slideshow-container {
     position: relative;
-    width: 100%;
+    width: 70%;
+    max-width: 70%;
     height: 400px; /* Fixed height for uniformity */
     margin: auto;
     overflow: hidden; /* Hide excess slides */
