@@ -3,21 +3,20 @@ layout: project
 title: "STAIR TOWER"
 description: "Full fabrication drawings. This project has some challenges due to its site condition, stairs and handrails are different. Design of stairs and handrails complies with AS 1657:2018"
 introduction: "empty"
-thumbnail: "/assets/images/project1/image1.jpg"
-image: "/assets/images/project1/image1.jpg"
+thumbnail: "/assets/images/project5/image1.jpg"
+image: "/assets/images/project5/image1.jpg"
 photos:
-  - url: "/assets/images/project1/image1.jpg"
+  - url: "/assets/images/project5/image1.jpg"
     caption: "empty"
-  - url: "/assets/images/project1/image2.jpg"
+  - url: "/assets/images/project5/image2.jpg"
     caption: "empty"
-  - url: "/assets/images/project1/image3.jpg"
+  - url: "/assets/images/project5/image3.jpg"
     caption: "empty"
-  - url: "/assets/images/project1/image4.jpg"
+  - url: "/assets/images/project5/image4.jpg"
     caption: "empty"
-  - url: "/assets/images/project1/image5.jpg"
+  - url: "/assets/images/project5/image5.jpg"
     caption: "empty"
-  - url: "/assets/images/project1/image6.jpg"
-    caption: "empty"
+
 ---
 
 ## Project Overview
@@ -47,6 +46,9 @@ Below are some images highlighting key moments of Project:
 *Empty*
 
 ![Prototype Testing](image3.jpg)
+*Empty*
+
+![Prototype Testing](image4.jpg)
 *Empty*
 
 ![Prototype Testing](image4.jpg)
