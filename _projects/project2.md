@@ -1,38 +1,47 @@
 ---
 layout: project
-title: "Project Beta"
-description: "A detailed look at our Project Beta, focusing on mechanical design and analysis."
-introduction: "Project Alpha was a comprehensive mechanical consultancy project where we provided end-to-end solutions for our client, enhancing their manufacturing processes."
+title: "RAMP BALUSTRADES AND HANDRAILS"
+description: "Design of Ramp balustrades and handrails. Australian standard 1428.1"
+introduction: "empty"
 thumbnail: "/assets/images/project2/image1.jpg"
 image: "/assets/images/project2/image1.jpg"
 photos:
   - url: "/assets/images/project2/image1.jpg"
-    caption: "Initial design of the main assembly."
+    caption: "empty"
   - url: "/assets/images/project2/image2.jpg"
-    caption: "Prototype testing and analysis phase."
+    caption: "empty"
+  - url: "/assets/images/project2/image3.jpg"
+    caption: "empty"
+  - url: "/assets/images/project2/image4.jpg"
+    caption: "empty"
+    
 ---
 
 ## Project Overview
-Project Alpha was aimed at redesigning mechanical components to improve efficiency and reduce operational costs. Our team worked closely with the client to identify bottlenecks and develop innovative solutions.
+- **cad-design**
+- **fabrication**
+- **drafting**
+- **balustrade**
+- **handrails**
 
 ## Project Details
-- **Client**: XYZ Manufacturing Inc.
-- **Duration**: 6 months
-- **Services Provided**: Design, prototyping, testing, and analysis.
+- **Client**: ControlFab
+- **Duration**: July 2022
 
-### Challenges Faced
-During the project, we encountered challenges related to material sourcing and precision manufacturing, which we overcame through collaboration and advanced simulation tools.
-
-### Outcome
-Project Alpha resulted in a 20% increase in manufacturing speed and a 15% reduction in costs.
 
 ---
 
 ### Photo Gallery
-Below are some images highlighting key moments of Project Alpha:
+Below are some images highlighting key moments of Project:
 
 ![Initial Design](image1.jpg)
-*Initial design of the main assembly.*
+*Empty*
 
 ![Prototype Testing](image2.jpg)
-*Prototype testing and analysis phase.*
+*Empty*
+
+![Prototype Testing](image3.jpg)
+*Empty*
+
+![Prototype Testing](image4.jpg)
+*Empty*

@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "Design of a sculpture frame."
-description: "empty"
+title: "REVERSE ENGINEERING"
+description: "Design and drawing of manifold block for wind turbine gearbox. Including all geometric tolerances."
 introduction: "empty"
 thumbnail: "/assets/images/project1/image1.jpg"
 image: "/assets/images/project1/image1.jpg"
@@ -14,25 +14,18 @@ photos:
     caption: "empty"
   - url: "/assets/images/project1/image4.jpg"
     caption: "empty"
-  - url: "/assets/images/project1/image5.jpg"
-    caption: "empty"
-  - url: "/assets/images/project1/image6.jpg"
-    caption: "empty"
 ---
 
 ## Project Overview
 - **cad-design**
 - **fabrication**
 - **drafting**
+- **reverse engineering**
 
 ## Project Details
-- **Client**: Show Works Group
-- **Duration**: July 2022
+- **Client**: SABA
+- **Duration**: February 2023
 
-### Challenges Faced
-This project has some tricks, modelling a 3d frame inside the 
-non-geometric dinosaur head is quite challenging, and 
-then also making the fabrication drawings is a tough process.
 
 ---
 
@@ -51,8 +44,3 @@ Below are some images highlighting key moments of Project:
 ![Prototype Testing](image4.jpg)
 *Empty*
 
-![Prototype Testing](image5.jpg)
-*Empty*
-
-![Prototype Testing](image6.jpg)
-*Empty*
